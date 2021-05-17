@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
         <title>VUE Hello</title>
     </head>
     <body>
         <div id="root">
             <h1>{{message}}</h1>
+            <img v-bind:src=" 'https://antinomie.it/wp-content/uploads/2020/03/' + img" alt="world img">
         </div>
         <script src="js/script.js"></script>
     </body>

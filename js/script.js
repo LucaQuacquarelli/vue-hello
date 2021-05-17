@@ -3,7 +3,12 @@ var app = new Vue( {
     
     el: "#root",
     data: {
-        message: "Hello World!!!"
+        message: "Hello World!!!",
+        img: "notte-1.jpg"
     }
 
 })
+
+// Bonus:
+// Aggiungere alla pagina un'immagine, presa anch'essa da un data.
+
