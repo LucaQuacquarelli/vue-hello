@@ -10,8 +10,11 @@
     </head>
     <body>
         <div id="root">
-            <h1>{{message}}</h1>
-            <img v-bind:src=" 'https://antinomie.it/wp-content/uploads/2020/03/' + img" alt="world img">
+            <div class="button-container">
+                <h1>{{message}}</h1>
+                <button @click="changeImg">World Tour</button>
+            </div>
+            <img :src="img" alt="world img">
         </div>
         <script src="js/script.js"></script>
     </body>
